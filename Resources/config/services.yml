@@ -1,0 +1,7 @@
+parameters:
+    ticketpark.pingen.class: Ticketpark\PingenBundle\Pingen\Pingen
+
+services:
+    ticketpark.pingen:
+        class: %ticketpark.pingen.class%
+        arguments: [%ticketpark.pingen.token%, %ticketpark.pingen.staging%]

@@ -1,0 +1,31 @@
+{
+    "name": "ticketpark/pingen-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony2 bundle wrapping the pingen.com API library",
+    "keywords": ["pingen"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ticketpark contributors and others",
+            "homepage": "https://github.com/Ticketpark/PingenBundle/contributors"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ticketpark/pingen"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.3",
+        "pingencom/pingen": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": { "Ticketpark\\PingenBundle": "" }
+    },
+
+    "target-dir": "Ticketpark/PingenBundle"
+}
